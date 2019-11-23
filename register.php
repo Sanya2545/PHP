@@ -19,8 +19,14 @@
                 <div class="offset-md-3 col-md-6 ">
                     <h3>Registration
                         </ <form method="post"></h3>
-
-                        <?php create_input("email", "Email")?>
+                        
+                        <?php create_input("email", "Email", "email");?>
+                        <?php create_input("phone", "Phone", "text");?>
+                        <?php create_input("password", "Password", "password");?>
+                        <?php create_input("confirmPassword", "ConfirmPassword", "password");?>
+                        <?php create_input("photo", "Photo", "file");?>
+                        
+                        
 
                         <!-- <div class="form-group">
                             <input type="text" 
@@ -48,11 +54,12 @@
 
 
 
+                        
                         <div class="form-group">
-                            <input type="submit" class="btnSubmit" value="Login" />
+                            <input type="submit" class="btn-success" value="Реєстрація"/>
                         </div>
                         <div class="form-group">
-                            <input type="submit" class="btnSubmit" value="Реєстрація"></a>
+                            <a href="login.php" class="ForgetPwd"> Go to Login </a>
                         </div>
                         </form>
                 </div>

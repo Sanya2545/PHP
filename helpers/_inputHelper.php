@@ -1,10 +1,10 @@
 <?php
-function create_input($name, $label)
+function create_input($name, $label, $type)
 {
     print <<< END
     <div class="form-group">
                             <label for="email">$label</label>
-                            <input type="text"
+                            <input type="$type"
                             class="form-control"
                             id="$name"
                             name="$name"
