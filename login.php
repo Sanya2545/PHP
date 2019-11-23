@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <?php include "_styles.php";?>
+    <?php include "helpers/_styles.php";?>
     <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
-    <?php include "_navbar.php";?>
+    <?php include "helpers/_navbar.php";?>
     
     <div class="container">
         <div class="login-container">

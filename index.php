@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<?php include "_navbar.php";?>
+<?php include "helpers/_navbar.php";?>
 <div class="container">
     <h1>Hello PHP</h1>
     <?php
